@@ -1,0 +1,14 @@
+.meme-box{
+    overflow: auto;
+    max-width: 400px;
+}
+
+.memeList{
+
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    width: 100vw;
+
+
+}

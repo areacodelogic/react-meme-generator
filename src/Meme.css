@@ -1,0 +1,47 @@
+.parent {
+  position: relative;
+  display: flex;
+  width: 400px;
+  height: 350px;
+  text-align: center;
+  float: left;
+}
+
+.topText {
+  position: absolute;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  top: 5px;
+  color: white;
+  text-align: right;
+  font-size: 2em;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.botText {
+  position: absolute;
+  bottom: 5px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: right;
+  font-size: 2em;
+  margin: 0 auto;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.containerMemes {
+  max-width: 400px;
+}
+
+.delButton {
+  color: white;
+  border-radius: 5px;
+  font-size: 1.3em;
+  background-color: rgb(206, 111, 67);
+  margin: 10px 0;
+}
